@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const TopicDetail = ({ match }) => {
+    // console.log('match', match)
     return (
         <div>
             <h3>{match.params.topicID}</h3>
